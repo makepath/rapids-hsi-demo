@@ -1,7 +1,12 @@
 # segmenting roads using hyperspectral imagery shakudo-rapids
-To run the demo:
-Requirements
+---
+Requirements:
+```
+RAPIDs toolkit and NVIDIA GPU
 Follow instructions for setting up RAPIDS https://rapids.ai/cloud#GC-single
-Download Washington DC mall image
-wget -O <path/dc.tif> http://cobweb.ecn.purdue.edu/~biehl/Hyperspectral_Project.zip
-
+```
+Download Washington DC mall data:
+```
+wget -O <path/hsi.zip> http://cobweb.ecn.purdue.edu/~biehl/Hyperspectral_Project.zip
+```
+Run the `Shakudo_Demo.ipynb` notebook
